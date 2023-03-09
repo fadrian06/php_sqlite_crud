@@ -1,0 +1,9 @@
+@url = http://localhost/php_sqlite_crud
+
+POST {{url}}/task-save.php
+Content-Type: application/json
+
+{
+	"title": "2nd Task title",
+	"description": "2nd Task description"
+}
